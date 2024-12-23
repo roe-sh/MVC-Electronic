@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<!-- Main Content -->
+<div class="container-fluid page-body-wrapper">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <!-- Welcome Section -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="fw-bold text-center">Welcome to the Admin Dashboard</h2>
+                            <p class="text-center text-muted">Manage categories, products, stores, orders, and more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <!-- Categories Card -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="mdi mdi-clipboard-text menu-icon text-primary" style="font-size: 40px;"></i>
+                            <h4>Categories</h4>
+                            <p class="text-muted">Manage all categories</p>
+                            <a href="/admin/Categories/CategoriesList" class="btn btn-primary btn-sm">View Categories</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Card -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="mdi mdi-cart-outline text-success" style="font-size: 40px;"></i>
+                            <h4>Products</h4>
+                            <p class="text-muted">Manage all products</p>
+                            <a href="/admin/Products/ProductsList" class="btn btn-success btn-sm">View Products</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stores Card -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="mdi mdi-store text-info" style="font-size: 40px;"></i>
+                            <h4>Stores</h4>
+                            <p class="text-muted">Manage all stores</p>
+                            <a href="/admin/Stores/StoresList" class="btn btn-info btn-sm">View Stores</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Orders Card -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="mdi mdi-receipt text-danger" style="font-size: 40px;"></i>
+                            <h4>Orders</h4>
+                            <p class="text-muted">Manage all orders</p>
+                            <a href="/admin/Orders/OrdersList" class="btn btn-danger btn-sm">View Orders</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <!-- Analytics Section -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="fw-bold">Quick Statistics</h4>
+                            <p class="text-muted">Overview of system metrics</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="fw-bold">Total Categories</p>
+                                    <h4 class="text-primary">50</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="fw-bold">Total Products</p>
+                                    <h4 class="text-success">120</h4>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <p class="fw-bold">Total Stores</p>
+                                    <h4 class="text-info">10</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="fw-bold">Total Orders</p>
+                                    <h4 class="text-danger">250</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity Section -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="fw-bold">Recent Activities</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">New category "Electronics" added</li>
+                                <li class="list-group-item">Product "Laptop" updated</li>
+                                <li class="list-group-item">Store "TechWorld" registered</li>
+                                <li class="list-group-item">Order #102 processed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+

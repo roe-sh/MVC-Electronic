@@ -1,0 +1,40 @@
+﻿@model Code.Models.Order
+
+@{
+    ViewBag.Title = "Order Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h2>Order Confirmation</h2>
+    <p>Your order has been placed successfully. Below are the details:</p>
+    <ul>
+        <li><strong>Order Number:</strong> @Model.Id</li>
+        <li><strong>Order Date:</strong> @Model.OrderDate.ToString("MM/dd/yyyy")</li>
+        <li><strong>Total Amount:</strong> $@Model.TotalAmount</li>
+    </ul>
+    <h3>Items</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Store</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Store.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>$@item.UnitPrice</td>
+                    <td>$@(item.Quantity * item.UnitPrice)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

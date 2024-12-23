@@ -1,0 +1,23 @@
+﻿
+@model Code.Models.Category
+
+@{
+    ViewBag.Title = "Edit Category";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+
+}
+
+<h1>@(Model.Id == 0 ? "Add New Category" : "Edit Category")</h1>
+
+<form asp-action="SaveCategory" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input asp-for="Name" class="form-control" required />
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("CategoriesList", "Admins")" class="btn btn-secondary">Cancel</a>
+</form>
+

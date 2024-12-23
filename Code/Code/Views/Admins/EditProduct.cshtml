@@ -1,0 +1,43 @@
+﻿@model Code.Models.Product
+@{
+    Layout = "~/Views/Shared/_Admin.cshtml";
+
+}
+<h1>Edit Product</h1>
+
+<form asp-action="EditProduct" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input asp-for="Price" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input asp-for="Quantity" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="CategoryId">Category</label>
+        <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="StoreId">Store</label>
+        <select asp-for="StoreId" asp-items="@(new SelectList(ViewBag.Stores, "Id", "Name"))" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="Image">Upload Image</label>
+        <input type="file" name="Image" class="form-control" accept="image/*" />
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <div class="mt-2">
+                <img src="~/uploads/@Model.ImageUrl" alt="@Model.Name" class="img-thumbnail" style="max-width: 150px;" />
+            </div>
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("ProductsList", "Admins")" class="btn btn-secondary">Cancel</a>
+</form>

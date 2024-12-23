@@ -1,0 +1,83 @@
+﻿@model Code.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="product-details" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Product Image -->
+            <div class="col-md-6 mb-4">
+                <div class="product-image border rounded shadow-sm p-3">
+                    <img src="@Url.Content("~/assets/images/" + Model.ImageUrl)" alt="@Model.Name" class="img-fluid w-100 rounded">
+                </div>
+            </div>
+            <!-- Product Info -->
+            <div class="col-md-6">
+                <h2 class="text-primary fw-bold">@Model.Name</h2>
+                <p class="text-muted">@Model.Description</p>
+                <div class="item-price text-success fw-bold fs-4 mb-3">$@Model.Price.ToString("0.00")</div>
+                <p><strong>Available at:</strong> <span class="text-secondary">@ViewBag.StoreName</span></p>
+
+                <form action="@Url.Action("AddToCart", "Shop")" method="post" class="mt-4">
+                    <input type="hidden" name="productId" value="@Model.Id" />
+                    <input type="hidden" name="storeId" value="@Model.StoreId" />
+
+                    <div class="form-group mb-3">
+                        <label for="quantity" class="form-label fw-bold">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1" class="form-control w-50" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg shadow">Add to Cart</button>
+                </form>
+
+                <div class="product-category mt-4">
+                    <p>Category: <a href="@Url.Action("ProductsByCategory", "Shop", new { categoryId = Model.Category.Id })" class="text-decoration-underline text-primary">@Model.Category.Name</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related Items Section -->
+<section id="related-items" class="py-5 bg-light">
+    <div class="container">
+        <h3 class="text-center text-primary fw-bold mb-5">Related Items from Other Stores</h3>
+        <div class="row g-4">
+            @if (ViewBag.RelatedProducts != null)
+            {
+                foreach (var relatedProduct in ViewBag.RelatedProducts as List<Code.Models.Product>)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm border-0 h-100">
+                            <!-- Product Image -->
+                            <div class="position-relative">
+                                <img src="@Url.Content("~/assets/images/" + relatedProduct.ImageUrl)" alt="@relatedProduct.Name" class="card-img-top rounded-top">
+                                <div class="overlay-hover d-flex align-items-center justify-content-center">
+                                    <a href="@Url.Action("Details", "Shop", new { id = relatedProduct.Id })" class="btn btn-primary btn-sm">Quick View</a>
+                                </div>
+                            </div>
+                            <!-- Product Info -->
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-truncate fw-bold">@relatedProduct.Name</h5>
+                                <p class="card-text text-muted text-truncate">@relatedProduct.Description</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="text-success fw-bold">$@relatedProduct.Price.ToString("0.00")</span>
+                                    <span class="badge bg-secondary">Store: @relatedProduct.StoreName</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="@Url.Action("Details", "Shop", new { id = relatedProduct.Id })" class="btn btn-outline-primary btn-sm w-100">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-muted text-center">No related items available at the moment.</p>
+            }
+        </div>
+    </div>
+</section>

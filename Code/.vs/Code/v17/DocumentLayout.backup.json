@@ -1,0 +1,674 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\diana\\Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\productslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\productslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\storeslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\storeslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\orderslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\orderslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\categorieslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\categorieslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\editstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\editstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\admins\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\admins\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|c:\\users\\user\\desktop\\diana\\code\\code\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{394377D2-1805-4B16-B352-AAF144287C76}|Code\\Code.csproj|solutionrelative:code\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StoresList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\StoresList.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\StoresList.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\StoresList.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\StoresList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:41:47.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\AdminsController.cs*",
+              "RelativeToolTip": "Code\\Controllers\\AdminsController.cs*",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAWwL8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:05:46.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\Store.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Store.cs",
+              "RelativeToolTip": "Code\\Models\\Store.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:41:17.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\ProductsList.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\ProductsList.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\ProductsList.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\ProductsList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:37:53.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditProduct.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:38:56.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Product.cs",
+              "RelativeToolTip": "Code\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:48:29.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Code\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:19:54.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\AddProduct.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T17:23:16.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\OrdersList.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\OrdersList.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\OrdersList.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\OrdersList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:44:37.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Shared\\_Admin.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_Admin.cshtml",
+              "RelativeToolTip": "Code\\Views\\Shared\\_Admin.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:08:34.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\Users.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\Users.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\Users.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\Users.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T16:19:07.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\User.cs",
+              "RelativeToolTip": "Code\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:25:52.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\CategoriesList.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\CategoriesList.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\CategoriesList.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\CategoriesList.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:35:20.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Admin.cs",
+              "RelativeToolTip": "Code\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T16:17:05.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\EditCategory.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditCategory.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\EditCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:36:24.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T16:00:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditStore.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditStore.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Admins\\EditStore.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Admins\\EditStore.cshtml",
+              "RelativeToolTip": "Code\\Views\\Admins\\EditStore.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:43:33.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Category.cs",
+              "RelativeToolTip": "Code\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:24:16.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Code\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAtwI8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:18:29.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\Order.cs",
+              "RelativeToolTip": "Code\\Models\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:26:23.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StoresController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\StoresController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\StoresController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\StoresController.cs",
+              "RelativeToolTip": "Code\\Controllers\\StoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:20:42.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Index.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Index.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:02:39.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Code\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:17:30.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Register.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\user\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Register.cshtml",
+              "RelativeToolTip": "Code\\Views\\user\\Register.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAD8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T12:58:18.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Shop.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Shop.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAWwEgAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:03:20.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Details.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:02:05.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Code\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAWwEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T06:14:15.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Login.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\user\\Login.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Login.cshtml",
+              "RelativeToolTip": "Code\\Views\\user\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:35:24.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Code\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Code\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:48:18.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\OrderDetails.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T12:30:32.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\About.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\About.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\About.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\About.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:41:56.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Code\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:07:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Checkout.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Checkout.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T12:21:30.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Cart.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Cart.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T07:24:17.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddToCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\AddToCart.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\AddToCart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\AddToCart.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\AddToCart.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAASwCwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:44:09.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "Code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "Code\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-22T11:19:28.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\user\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\user\\Profile.cshtml",
+              "RelativeToolTip": "Code\\Views\\user\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T07:38:11.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Code\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Code\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T06:34:52.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\home\\Contact.cshtml",
+              "RelativeToolTip": "Code\\Views\\home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:44:47.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\diana\\Code\\Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:17:29.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

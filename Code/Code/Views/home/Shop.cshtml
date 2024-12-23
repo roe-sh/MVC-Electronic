@@ -1,0 +1,152 @@
+﻿@model Dictionary<Code.Models.Category, List<Code.Models.Product>>
+
+@{
+    ViewBag.Title = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hero Section -->
+<section class="site-banner jarallax min-height300 padding-large text-white" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('~/images/hero-image.jpg') no-repeat center center; background-size: cover;">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="page-title">Shop Page</h1>
+                <div class="breadcrumbs">
+                    <span class="item">
+                        <a href="@Url.Action("Index", "Home")" class="text-white">Home /</a>
+                    </span>
+                    <span class="item text-white">Shop</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Shop Section -->
+<div class="shopify-grid padding-large py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Products Section -->
+            <section id="selling-products" class="col-md-9 product-store">
+                <!-- Search Bar -->
+                <div class="widget-search-bar mb-4">
+                    <form method="get" action="@Url.Action("Shop")" class="d-flex align-items-center shadow-sm rounded p-3 bg-white">
+                        <input class="search-field form-control me-2" placeholder="Search products..." type="text" name="searchTerm" value="@ViewBag.SearchTerm" />
+                        <button class="btn btn-primary"><i class="icon icon-search"></i> Search</button>
+                    </form>
+                </div>
+
+                <!-- Products Section -->
+                <div class="tab-content">
+                    <div id="all" data-tab-content class="active">
+                        <div class="row g-4">
+                            @foreach (var category in Model)
+                            {
+                                foreach (var product in category.Value)
+                                {
+                                    <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card product-card shadow-sm h-100">
+                                            <!-- Product Image -->
+                                            <div class="product-image-container">
+                                                <img src="@Url.Content("~/assets/images/" + product.ImageUrl)"
+                                                     alt="@product.Name"
+                                                     class="card-img-top product-image rounded-top"
+                                                     style="max-height: 200px; object-fit: cover;">
+                                                <div class="product-hover-overlay d-flex justify-content-center align-items-center">
+                                                    <a href="@Url.Action("Details", "Shop", new { id = product.Id })"
+                                                       class="btn btn-light btn-sm">View Details</a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body text-center">
+                                                <!-- Product Name -->
+                                                <h5 class="card-title text-truncate">@product.Name</h5>
+                                                <!-- Product Description -->
+                                                <p class="card-text text-muted text-truncate">@product.Description</p>
+                                                <!-- Price and Store -->
+                                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                                    <span class="text-primary fw-bold">$@product.Price.ToString("0.00")</span>
+                                                    <span class="badge bg-secondary">Store: @product.StoreName</span>
+                                                </div>
+                                                <!-- Add to Cart Button -->
+                                                <div class="mt-3">
+                                                    <a href="@Url.Action("Details", "Shop", new { id = product.Id })"
+                                                       class="btn btn-outline-primary btn-sm w-100">View Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <nav class="navigation paging-navigation text-center mt-4" role="navigation">
+                    <div class="pagination loop-pagination d-flex justify-content-center">
+                        @if (ViewBag.CurrentPage > 1)
+                        {
+                            <a href="@Url.Action("Shop", new { page = ViewBag.CurrentPage - 1 })" class="pagination-arrow me-2 btn btn-outline-primary">
+                                <i class="icon icon-arrow-left"></i> Prev
+                            </a>
+                        }
+
+                        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                        {
+                            if (i == ViewBag.CurrentPage)
+                            {
+                                <span aria-current="page" class="page-numbers current btn btn-primary me-2">@i</span>
+                            }
+                            else
+                            {
+                                <a class="page-numbers btn btn-outline-primary me-2" href="@Url.Action("Shop", new { page = i })">@i</a>
+                            }
+                        }
+
+                        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                        {
+                            <a href="@Url.Action("Shop", new { page = ViewBag.CurrentPage + 1 })" class="pagination-arrow btn btn-outline-primary">
+                                Next <i class="icon icon-arrow-right"></i>
+                            </a>
+                        }
+                    </div>
+                </nav>
+            </section>
+
+            <!-- Sidebar Section -->
+            <aside class="col-md-3">
+                <div class="sidebar">
+                    <!-- Category Filter -->
+                    <div class="widgets widget-product-tags mb-4 shadow-sm p-4 rounded bg-white">
+                        <h5 class="widget-title fw-bold">Categories</h5>
+                        <ul class="product-tags sidebar-list list-unstyled">
+                            <li class="tags-item">
+                                <a href="@Url.Action("Shop", new { categoryId = 0 })" class="btn btn-outline-dark btn-sm mb-2">All Categories</a>
+                            </li>
+                            @if (ViewBag.Categories != null)
+                            {
+                                foreach (var category in ViewBag.Categories as List<Code.Models.Category>)
+                                {
+                                    <li class="tags-item">
+                                        <a href="@Url.Action("Shop", new { categoryId = category.Id })" class="btn btn-outline-dark btn-sm mb-2">@category.Name</a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+
+                   
+                    <!-- Price Filter -->
+                    <div class="widgets widget-price-filter shadow-sm p-4 rounded bg-white">
+                        <h5 class="widget-title fw-bold">Filter By Price</h5>
+                        <form method="get" action="@Url.Action("Shop")">
+                            <input type="number" name="minPrice" placeholder="Min Price" class="form-control mb-2" />
+                            <input type="number" name="maxPrice" placeholder="Max Price" class="form-control mb-2" />
+                            <button type="submit" class="btn btn-primary btn-sm">Apply</button>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>

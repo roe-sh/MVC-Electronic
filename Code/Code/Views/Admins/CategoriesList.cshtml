@@ -1,0 +1,36 @@
+﻿
+
+@model IEnumerable<Code.Models.Category>
+
+@{
+    ViewBag.Title = "Categories List";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+
+}
+
+<h1>Categories List</h1>
+<a href="@Url.Action("EditCategory", "Admins")" class="btn btn-primary mb-3">Add New Category</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>
+                    <a href="@Url.Action("EditCategory", "Admins", new { id = category.Id })" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="@Url.Action("DeleteCategory", "Admins", new { id = category.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

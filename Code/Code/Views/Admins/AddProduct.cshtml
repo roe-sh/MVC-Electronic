@@ -1,0 +1,36 @@
+﻿@model Code.Models.Product
+@{
+    Layout = "~/Views/Shared/_Admin.cshtml";
+
+}
+<h1>Add New Product</h1>
+
+<form asp-action="AddProduct" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input asp-for="Price" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input asp-for="Quantity" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="CategoryId">Category</label>
+        <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="StoreId">Store</label>
+        <select asp-for="StoreId" asp-items="@(new SelectList(ViewBag.Stores, "Id", "Name"))" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="Image">Upload Image</label>
+        <input type="file" name="Image" class="form-control" accept="image/*" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("ProductsList", "Admins")" class="btn btn-secondary">Cancel</a>
+</form>

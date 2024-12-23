@@ -1,0 +1,131 @@
+﻿@model Code.Models.Order
+
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4">Checkout</h2>
+
+    <!-- Order Details -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h4>Order Details</h4>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Order Number:</strong> @Model.Id
+                </li>
+                <li class="list-group-item">
+                    <strong>Order Date:</strong> @Model.OrderDate.ToString("MM/dd/yyyy")
+                </li>
+                <li class="list-group-item">
+                    <strong>Total Amount:</strong> $@Model.TotalAmount
+                </li>
+                <li class="list-group-item">
+                    <strong>Order Status:</strong> @Model.Status
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Order Items -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h4>Order Items</h4>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderItems)
+                    {
+                        <tr>
+                            <td>@item.Product.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>$@item.UnitPrice</td>
+                            <td>$@(item.Quantity * item.UnitPrice)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Shipping and Payment Form -->
+    <form method="post" action="@Url.Action("Checkout", "Shop")" id="checkoutForm">
+        <!-- Shipping Address -->
+        <div class="mb-4">
+            <label for="address" class="form-label fw-bold">Shipping Address</label>
+            <input type="text"
+                   id="address"
+                   name="address"
+                   class="form-control"
+                   placeholder="Enter your shipping address"
+                   required
+                   aria-describedby="addressHelp" />
+            <div id="addressHelp" class="form-text">
+                Please provide a valid address for shipping.
+            </div>
+        </div>
+
+        <!-- Payment Method -->
+        <div class="mb-4">
+            <label for="paymentMethod" class="form-label fw-bold">Payment Method</label>
+            <select id="paymentMethod" name="paymentMethod" class="form-control" required>
+                <option value="" disabled selected>Select a payment method</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="Cash on Delivery">Cash on Delivery</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-end">
+            <button type="submit" class="btn btn-primary btn-lg">
+                Confirm and Place Order
+            </button>
+        </div>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Check for success indicator from the server (e.g., via ViewBag or TempData)
+        var successMessage = '@TempData["SuccessMessage"]';
+
+        if (successMessage) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Order Placed!',
+                text: successMessage,
+                showConfirmButton: true
+            });
+        }
+    });
+
+    // Example of client-side success alert after submission
+    document.getElementById('checkoutForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Perform form submission with Ajax or show success alert after submission
+        Swal.fire({
+            icon: 'success',
+            title: 'Order Placed!',
+            text: 'Your order has been successfully placed. Thank you for shopping with us!',
+            showConfirmButton: true
+        }).then(() => {
+            // Submit the form after showing the alert
+            this.submit();
+        });
+    });
+</script>

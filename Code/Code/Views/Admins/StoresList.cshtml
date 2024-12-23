@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Code.Models.Store>
+
+@{
+    ViewBag.Title = "Stores List";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+
+}
+
+<h1>Stores List</h1>
+<a href="@Url.Action("EditStore", "Admins")" class="btn btn-primary mb-3">Add New Store</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Contact</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var store in Model)
+        {
+            <tr>
+                <td>@store.Id</td>
+                <td>@store.Name</td>
+                <td>@store.Location</td>
+                <td>@store.Contact</td>
+                <td>
+                    <a href="@Url.Action("EditStore", "Admins", new { id = store.Id })" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="@Url.Action("DeleteStore", "Admins", new { id = store.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
